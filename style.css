@@ -1,1 +1,17 @@
 h1{ font-weight: bold; color:green;}
+
+
+blockquote{border:1px solid white; 
+text-align:center;
+margin-left:0;
+}
+
+.wrap{margin:auto; 
+width:600px;
+}
+
+body {
+background-color:lightgrey;
+font-family:sans-serif;
+font-size:12px;
+font-weight:bold;}
