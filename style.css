@@ -6,12 +6,23 @@ text-align:center;
 margin-left:0;
 }
 
-.wrap{margin:auto; 
-width:600px;
+.wrap{
+background-color:#481708;
+margin:auto; 
+width:800px;
+}
+
+.main-nav, h2 {
+display: inline;
+}
+
+.main-nav li {
+	display: inline;
+	padding-right: 25px;
 }
 
 body {
-background-color:lightgrey;
+background-color:#1D1D1D;
 font-family:sans-serif;
 font-size:12px;
 font-weight:bold;}
