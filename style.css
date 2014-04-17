@@ -7,7 +7,6 @@ margin-left:0;
 }
 
 .wrap{
-background-color:grey;
 margin:auto; 
 width:1170px;
 }
@@ -41,6 +40,21 @@ width:1170px;
 	padding-right: 25px;
 	
 }
+
+.main-content {
+ padding: 60px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  color: inherit;
+  background-color: #eeeeee;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  margin:auto;
+}
+
 
 body {
 background-color:#f9f9f9;
