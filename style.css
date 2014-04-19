@@ -8,12 +8,15 @@ margin-left:0;
 
 .wrap{
 margin:auto; 
-width:1170px;
 }
 
-.main-nav, h2 {
+.nav {
+margin:auto;
+width:800px;
+}
+
+.main-nav {
 display: block;
-width:1170px;
   min-height: 40px;
   padding-left: 20px;
   padding-right: 20px;
@@ -42,6 +45,7 @@ width:1170px;
 }
 
 .main-content {
+width: 800px;
  padding: 60px;
   margin-bottom: 30px;
   font-size: 18px;
