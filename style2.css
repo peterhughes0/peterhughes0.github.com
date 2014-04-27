@@ -12,29 +12,43 @@ position:relative;
 }
 
 .nav {
-margin:auto;
-width:1000px;
+height: 50px;
+margin: 0 auto;
+position: relative;
+width: 1000px;
+top:0px;
 }
 
 #header-title{ font-size:20px;
-margin:0px 25px;}
+margin:0px 25px;
+position:relative;
+padding-top:10px;
+float:left;
+left:0px;}
+
 #main-image{ float:right;
-clear:both;
+position:relative;
+top:13px;
+right:-250px;
 }
 
-.main-nav li a.current { 
-      
+.main-nav li a.current {       
   text-decoration:none;
-	padding: 20px 15px 16px;
+	padding: 20px 15px 15px;
 	background-color:#E2D4C8;
+	  background-image: -moz-linear-gradient(top, #E2D4C8, #f2f2f2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#E2D4C8), to(#f2f2f2));
+  background-image: -webkit-linear-gradient(top, #E2D4C8, #f2f2f2);
+  background-image: -o-linear-gradient(top, #E2D4C8, #f2f2f2);
+  background-image: linear-gradient(to bottom, #E2D4C8, #f2f2f2);
    }
 
 .main-nav {
-margin:0 auto;
-width:absolute;
+margin:0 0;
 position:relative;
+width:absolute;
   min-height: 40px;
-
+  height:50px;
   margin-bottom: 35px;
   background-color: #f9f9f9;
   background-image: -moz-linear-gradient(top, white, #f2f2f2);
@@ -56,24 +70,33 @@ position:relative;
   *zoom: 1;
 }
 
-.main-nav ul { padding-left:50px;
-
+.main-nav ul { 
 padding-top:0px;
 padding-bottom:0px;
-height:absolute;
+margin-top:0;
+height:50px;
+margin:auto;
+width:auto;
 }
 .main-nav li {
-	position:relative;
+position:relative;
+	left:100px;
+	right:20px;
 	display: inline;
-	padding: 20px 0 15px;
-	margin:0 0;
-	float:left;
+	padding: 20px 0 15px;		
+	
+	
 }
 
 	 
 .main-nav li a:hover{
 	text-decoration:none;
 	padding: 20px 15px 16px;
+		  background-image: -moz-linear-gradient(top, #f2f2f2, #E2D4C8);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#E2D4C8));
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #E2D4C8);
+  background-image: -o-linear-gradient(top, #f2f2f2, #E2D4C8);
+  background-image: linear-gradient(to bottom, #f2f2f2, #E2D4C8);
 
   color:#471808;}
 
@@ -81,7 +104,9 @@ height:absolute;
 	position:relative;
 	text-decoration:none;
 	padding: 20px 15px 16px;
-	border-left:1px solid grey;
+	border-left:1px solid #E2D4C8;
+	border-right:1px solid #E2D4C8;
+	min-width:40px;
 	float:left;
   color:#471808;}
 
