@@ -42,7 +42,7 @@ margin-top:0px;
 
 .main-nav {
 margin:0 auto;
-width:absolute;
+width:100%;
 position:relative;
   min-height: 50px;
 
@@ -108,7 +108,7 @@ height:30px;
 .main-content {
 position:relative;
 min-height:700px;
-width: 1000px;
+width: 60%;
  padding: 60px;
   margin-bottom: 30px;
   font-size: 18px;
